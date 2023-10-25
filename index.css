@@ -1,0 +1,26 @@
+@media ((min-width:320px) and (max-width:920px))  {     
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    #scrollToMenu {
+        display: none !important;
+    }
+}
+#scrollToMenu {
+    display: none;
+    position: fixed;
+    top: 5px;
+    height: auto;
+    background-color: #f1f1f1;
+    color: #ffffff;
+    border: 2px dashed #b8b8b8;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+#scrollToMenu a{
+    color: #eb8a35;
+    padding: 0 5px;
+    text-decoration: none;
+}
+#scrollToMenu a:hover{
+    text-decoration: underline;
+}
